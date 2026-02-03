@@ -31,5 +31,5 @@ update() {
 }
 update
 # Uncomment the next 2 lines if you would like discord to start after the update. This turns the script into something that automatically updates discord before launch if needed.
-#discord
+#discord "$@" # "$@" passes command-line arguments, if any, to discord.
 #update # this makes sure that if you press the "update" button at the right-top discord will update (since that button literally just closes discord)
